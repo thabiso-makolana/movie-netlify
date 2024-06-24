@@ -1,0 +1,29 @@
+.favorites-page {
+  padding: 20px;
+}
+
+.favorites-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.favorite-item {
+  margin: 10px;
+  text-align: center;
+}
+
+.favorite-item img {
+  width: 200px;
+  height: auto;
+}
+
+.favorite-item p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.no-favorites-message {
+  font-size: 18px;
+  color: #888;
+  margin-top: 20px;
+}

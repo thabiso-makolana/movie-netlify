@@ -1,0 +1,40 @@
+.movies-page {
+  padding-left: 70px;
+}
+
+.movies-page.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.movies-page.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.movies-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.movie-item-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.movie-item {
+  width: 200px;
+  text-align: center;
+}
+
+.movie-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.movie-item p {
+  margin-top: 10px;
+  font-size: 16px;
+}
